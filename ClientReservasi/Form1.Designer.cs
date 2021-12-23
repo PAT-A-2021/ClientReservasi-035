@@ -94,44 +94,44 @@ namespace ClientReservasi
             // 
             // textBoxID
             // 
-            this.textBoxID.Location = new System.Drawing.Point(148, 54);
+            this.textBoxID.Location = new System.Drawing.Point(176, 54);
             this.textBoxID.Name = "textBoxID";
-            this.textBoxID.Size = new System.Drawing.Size(100, 22);
+            this.textBoxID.Size = new System.Drawing.Size(269, 22);
             this.textBoxID.TabIndex = 5;
             // 
             // textBoxNama
             // 
-            this.textBoxNama.Location = new System.Drawing.Point(148, 93);
+            this.textBoxNama.Location = new System.Drawing.Point(176, 93);
             this.textBoxNama.Name = "textBoxNama";
-            this.textBoxNama.Size = new System.Drawing.Size(100, 22);
+            this.textBoxNama.Size = new System.Drawing.Size(269, 22);
             this.textBoxNama.TabIndex = 6;
             // 
             // textBoxNoTlp
             // 
-            this.textBoxNoTlp.Location = new System.Drawing.Point(148, 134);
+            this.textBoxNoTlp.Location = new System.Drawing.Point(176, 134);
             this.textBoxNoTlp.Name = "textBoxNoTlp";
-            this.textBoxNoTlp.Size = new System.Drawing.Size(100, 22);
+            this.textBoxNoTlp.Size = new System.Drawing.Size(269, 22);
             this.textBoxNoTlp.TabIndex = 7;
             // 
             // textBoxJumlah
             // 
-            this.textBoxJumlah.Location = new System.Drawing.Point(148, 168);
+            this.textBoxJumlah.Location = new System.Drawing.Point(176, 168);
             this.textBoxJumlah.Name = "textBoxJumlah";
-            this.textBoxJumlah.Size = new System.Drawing.Size(100, 22);
+            this.textBoxJumlah.Size = new System.Drawing.Size(269, 22);
             this.textBoxJumlah.TabIndex = 8;
             // 
             // textBoxIDLokasi
             // 
-            this.textBoxIDLokasi.Location = new System.Drawing.Point(148, 207);
+            this.textBoxIDLokasi.Location = new System.Drawing.Point(176, 207);
             this.textBoxIDLokasi.Name = "textBoxIDLokasi";
-            this.textBoxIDLokasi.Size = new System.Drawing.Size(100, 22);
+            this.textBoxIDLokasi.Size = new System.Drawing.Size(269, 22);
             this.textBoxIDLokasi.TabIndex = 9;
             // 
             // btSimpan
             // 
-            this.btSimpan.Location = new System.Drawing.Point(540, 77);
+            this.btSimpan.Location = new System.Drawing.Point(570, 54);
             this.btSimpan.Name = "btSimpan";
-            this.btSimpan.Size = new System.Drawing.Size(75, 23);
+            this.btSimpan.Size = new System.Drawing.Size(95, 45);
             this.btSimpan.TabIndex = 10;
             this.btSimpan.Text = "Simpan";
             this.btSimpan.UseVisualStyleBackColor = true;
@@ -139,9 +139,9 @@ namespace ClientReservasi
             // 
             // btUpdate
             // 
-            this.btUpdate.Location = new System.Drawing.Point(540, 128);
+            this.btUpdate.Location = new System.Drawing.Point(570, 111);
             this.btUpdate.Name = "btUpdate";
-            this.btUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btUpdate.Size = new System.Drawing.Size(95, 45);
             this.btUpdate.TabIndex = 11;
             this.btUpdate.Text = "Update";
             this.btUpdate.UseVisualStyleBackColor = true;
@@ -149,9 +149,9 @@ namespace ClientReservasi
             // 
             // btHapus
             // 
-            this.btHapus.Location = new System.Drawing.Point(540, 179);
+            this.btHapus.Location = new System.Drawing.Point(570, 168);
             this.btHapus.Name = "btHapus";
-            this.btHapus.Size = new System.Drawing.Size(75, 23);
+            this.btHapus.Size = new System.Drawing.Size(95, 45);
             this.btHapus.TabIndex = 12;
             this.btHapus.Text = "Hapus";
             this.btHapus.UseVisualStyleBackColor = true;
@@ -159,9 +159,9 @@ namespace ClientReservasi
             // 
             // btClear
             // 
-            this.btClear.Location = new System.Drawing.Point(540, 231);
+            this.btClear.Location = new System.Drawing.Point(570, 228);
             this.btClear.Name = "btClear";
-            this.btClear.Size = new System.Drawing.Size(75, 23);
+            this.btClear.Size = new System.Drawing.Size(95, 45);
             this.btClear.TabIndex = 13;
             this.btClear.Text = "Clear";
             this.btClear.UseVisualStyleBackColor = true;
@@ -174,7 +174,7 @@ namespace ClientReservasi
             this.dtPemesanan.Name = "dtPemesanan";
             this.dtPemesanan.RowHeadersWidth = 51;
             this.dtPemesanan.RowTemplate.Height = 24;
-            this.dtPemesanan.Size = new System.Drawing.Size(240, 150);
+            this.dtPemesanan.Size = new System.Drawing.Size(780, 150);
             this.dtPemesanan.TabIndex = 14;
             this.dtPemesanan.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtPemesanan_CellContentClick);
             // 
